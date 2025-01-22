@@ -9,7 +9,7 @@ import {
 } from '@/app/lib/data';
  
 export default async function Page() {
-  const revenue = await fetchRevenue();
+/*  const revenue = await fetchRevenue();
   const latestInvoices = await fetchLatestInvoices();
   const {
     numberOfInvoices,
@@ -37,5 +37,5 @@ export default async function Page() {
         {<LatestInvoices latestInvoices={latestInvoices} />}
       </div>
     </main>
-  );
+  );*/
 }
